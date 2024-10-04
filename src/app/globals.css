@@ -25,3 +25,21 @@ body {
     text-wrap: balance;
   }
 }
+
+.desktop {
+  display: block; /* Show on larger screens */
+}
+
+.mobile {
+  display: none; /* Hide on larger screens */
+}
+
+@media (max-width: 768px) {
+  .desktop {
+    display: none; /* Hide on small screens */
+  }
+
+  .mobile {
+    display: block; /* Show on small screens */
+  }
+}
