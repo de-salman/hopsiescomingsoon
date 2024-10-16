@@ -27,7 +27,6 @@ export default function Home() {
         className="mobile"
         autoPlay
         playsInline
-        muted
         loop
         src="./Hopsies.mp4"
         width="100%"
