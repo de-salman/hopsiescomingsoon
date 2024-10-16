@@ -9,7 +9,7 @@ export default function Home() {
     if (videoRef.current) {
       videoRef.current.play().catch((error) => {
         console.log("Autoplay was prevented:", error);
-        // You might want to show a play button here
+        // You might want to show a play button here s
       });
     }
   }, []);
