@@ -58,7 +58,7 @@ export default function Home() {
           cursor: "pointer",
         }}
       >
-        {isMuted ? (
+        {!isMuted ? (
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
